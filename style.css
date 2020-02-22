@@ -3,20 +3,25 @@ body{
     font-family: 'Poppins';
 }
 .top-part{
-    height: 500px;
-    padding-top: 50px;
-    margin-left: 40px;
+    height: 550px;
+    padding-top: 95px;
+    padding-left: 30px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .width-top{
-    width: 50%;
+    width: 40%;
     float: left;
+    padding-top: 50px ;
 }
 .width-top img{
     width: 80%;
 }
 .middle-part{
-    height: 500px;
+    height: 620px;
     padding-top: 50px;
+    padding-left: 45px;
 }
 .width-middle{
     width: 50%;
@@ -24,4 +29,33 @@ body{
 }
 .width-middle img{
     width: 70%;
+}
+.work-part{
+    height: 500px;
+    text-align: center;
+}
+.work-part h1{
+    margin-bottom: 20px;
+}
+.carousel{
+    width: 50%;
+    
+}
+.client-part{
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+.client-part h1{
+    margin-bottom: 20px;
+}
+.client-part .text-muted{
+    margin-top: -12px;
+}
+.hire{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 40px;
+    width: 60%;
+    background-image: linear-gradient(45deg,hotpink,tomato);
 }

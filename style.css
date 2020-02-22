@@ -1,0 +1,27 @@
+body{
+    margin:0px;
+    font-family: 'Poppins';
+}
+.top-part{
+    height: 500px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.width-top{
+    width: 50%;
+    float: left;
+}
+.width-top img{
+    width: 80%;
+}
+.middle-part{
+    height: 500px;
+    padding-top: 50px;
+}
+.width-middle{
+    width: 50%;
+    float: left;
+}
+.width-middle img{
+    width: 70%;
+}
